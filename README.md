@@ -1,34 +1,88 @@
 # 🚀 Data Science Showcase - Boubacar DABO
 
-## 🎯 Aperçu
+> Portfolio technique complet démontrant l'expertise en **Machine Learning**, **Data Science** et **Intelligence Artificielle**
 
-Repository de démonstration des compétences en **Data Science**, **Machine Learning** et **Intelligence Artificielle** de **Boubacar DABO**, étudiant-ingénieur en Big Data & IA à ESIGELEC.
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.44.1-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io)
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python)](https://python.org)
+[![Machine Learning](https://img.shields.io/badge/ML-15+_Algorithms-00D2FF?style=for-the-badge)](#-algorithmes-ml)
+[![Status](https://img.shields.io/badge/Status-Production_Ready-00C851?style=for-the-badge)](#)
 
-> 💡 **Objectif** : Présenter des projets concrets et professionnels pour démontrer l'expertise technique en sciences des données.
+## 🎯 Vue d'Ensemble
 
-## 🛠️ Technologies utilisées
+Ce repository présente une **démonstration interactive complète** de compétences avancées en Data Science, incluant:
 
-- **Python 3.9+** - Langage principal
-- **NumPy & Pandas** - Manipulation et analyse de données
-- **Scikit-learn** - Algorithmes de Machine Learning
-- **TensorFlow/PyTorch** - Deep Learning
-- **Plotly & Seaborn** - Visualisations avancées
-- **Jupyter Notebooks** - Analyses interactives
-- **Streamlit** - Applications web de démonstration
+- **15+ Algorithmes ML** (classiques + modernes)
+- **3 Applications Streamlit** interactives
+- **Notebooks Jupyter** avec analyses approfondies
+- **Visualisations interactives** Plotly/Matplotlib
+- **Code optimisé** et documenté professionnellement
 
-## 📁 Structure du projet
+### 🏢 Contexte Professionnel
 
+**Candidat:** Boubacar DABO  
+**Formation:** ESIGELEC - Big Data & Intelligence Artificielle  
+**Disponibilité:** ✅ Temps plein jusqu'en Septembre 2025  
+**Contact:** 📧 dabom372@gmail.com | 💼 [LinkedIn](https://www.linkedin.com/in/boubacar-dabo-94206a291/)
+
+---
+
+## 🚀 Applications Interactives
+
+### 🧠 ML Hub - Page d'Accueil
+```bash
+streamlit run streamlit_apps/ml_hub.py
 ```
-showcase/
-├── 📊 datasets/              # Jeux de données pour les démonstrations
-├── 📓 notebooks/             # Jupyter notebooks avec analyses complètes
-├── 🤖 models/                # Modèles ML entraînés et sauvegardés
-├── 📈 visualizations/        # Scripts de visualisation avancée
-├── 🌐 streamlit_apps/        # Applications web interactives
-├── 🔧 utils/                 # Fonctions utilitaires réutilisables
-├── 📋 requirements.txt       # Dépendances Python
-└── 📖 README.md              # Documentation principale
+- **Interface principale** avec navigation
+- **Présentation des capacités** techniques
+- **Liens vers toutes les applications**
+
+### 📊 Dashboard Principal
+```bash
+streamlit run streamlit_apps/dashboard.py
 ```
+- **Analyse exploratoire** automatisée
+- **Modélisation ML** en temps réel
+- **Visualisations interactives** Plotly
+- **Métriques de performance** détaillées
+
+### 🧠 ML Avancé
+```bash
+streamlit run streamlit_apps/advanced_ml.py
+```
+- **15+ Algorithmes** configurables
+- **Comparaison multi-modèles**
+- **Optimisation hyperparamètres**
+- **Validation croisée** robuste
+
+---
+
+## 🤖 Algorithmes ML Implémentés
+
+### 🌳 Tree-Based Methods
+| Algorithme | Type | Complexité | Use Case |
+|------------|------|------------|----------|
+| **Random Forest** | Ensemble | Moyenne | Classification générale |
+| **Extra Trees** | Ensemble | Moyenne | Données bruitées |
+| **Decision Tree** | Simple | Faible | Interprétabilité |
+| **XGBoost** | Boosting | Élevée | Performance maximale |
+| **LightGBM** | Boosting | Moyenne | Vitesse + Performance |
+| **CatBoost** | Boosting | Élevée | Variables catégorielles |
+
+### 📈 Linear & Boosting
+| Algorithme | Type | Complexité | Use Case |
+|------------|------|------------|----------|
+| **Logistic Regression** | Linéaire | Faible | Baseline, interprétabilité |
+| **SGD Classifier** | Linéaire | Faible | Grandes données |
+| **Gradient Boosting** | Boosting | Élevée | Performance stable |
+| **AdaBoost** | Boosting | Moyenne | Données déséquilibrées |
+
+### 🧠 Neural & Advanced
+| Algorithme | Type | Complexité | Use Case |
+|------------|------|------------|----------|
+| **Neural Network (MLP)** | Deep Learning | Élevée | Patterns complexes |
+| **SVM (RBF/Linear)** | Kernel | Moyenne | Marges maximales |
+| **K-Nearest Neighbors** | Instance-based | Faible | Recommandations |
+| **Gaussian Naive Bayes** | Probabiliste | Faible | Baseline rapide |
 
 ## 🎯 Projets inclus
 
