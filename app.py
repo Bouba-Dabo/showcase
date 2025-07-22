@@ -113,9 +113,9 @@ def main():
         st.info("""
         **🧠 ML Avancé**
         
-        15+ algorithmes de pointe avec optimisation d'hyperparamètres, validation croisée et comparaisons multi-modèles.
+        12+ algorithmes de Machine Learning avec optimisation d'hyperparamètres, validation croisée et comparaisons multi-modèles.
         
-        **Technologies:** XGBoost • LightGBM • CatBoost • Neural Networks
+        **Technologies:** Random Forest • SVM • Neural Networks • Gradient Boosting
         """)
     
     # Algorithmes implémentés
