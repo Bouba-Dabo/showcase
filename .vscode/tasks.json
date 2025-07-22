@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Lancer Dashboard Streamlit",
+			"type": "shell",
+			"command": "streamlit",
+			"args": [
+				"run",
+				"streamlit_apps/dashboard.py"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
