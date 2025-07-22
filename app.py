@@ -82,36 +82,16 @@ def main():
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        st.markdown("""
-        <div class="stats-container">
-            <h3>15+</h3>
-            <p>Algorithmes ML</p>
-        </div>
-        """, unsafe_allow_html=True)
+        st.metric("🤖 Algorithmes ML", "15+", "Implémentés")
     
     with col2:
-        st.markdown("""
-        <div class="stats-container">
-            <h3>3</h3>
-            <p>Apps Interactives</p>
-        </div>
-        """, unsafe_allow_html=True)
+        st.metric("📱 Apps Interactives", "3", "Fonctionnelles")
     
     with col3:
-        st.markdown("""
-        <div class="stats-container">
-            <h3>10+</h3>
-            <p>Datasets</p>
-        </div>
-        """, unsafe_allow_html=True)
+        st.metric("📊 Datasets", "10+", "Analysés")
     
     with col4:
-        st.markdown("""
-        <div class="stats-container">
-            <h3>5+</h3>
-            <p>Visualisations</p>
-        </div>
-        """, unsafe_allow_html=True)
+        st.metric("📈 Visualisations", "5+", "Types")
     
     st.markdown("<br>", unsafe_allow_html=True)
     
@@ -121,36 +101,22 @@ def main():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("""
-        <div class="feature-card">
-            <h3>📊 Dashboard Interactif</h3>
-            <p>Interface complète avec visualisations en temps réel, 
-            analyse exploratoire automatisée et modélisation ML interactive.</p>
-            
-            <div style="margin: 1rem 0;">
-                <span class="tech-badge">Plotly</span>
-                <span class="tech-badge">Scikit-learn</span>
-                <span class="tech-badge">Pandas</span>
-                <span class="tech-badge">Streamlit</span>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        st.success("""
+        **📊 Dashboard Interactif**
+        
+        Interface complète avec visualisations en temps réel, analyse exploratoire automatisée et modélisation ML interactive.
+        
+        **Technologies:** Plotly • Scikit-learn • Pandas • Streamlit
+        """)
     
     with col2:
-        st.markdown("""
-        <div class="feature-card">
-            <h3>🧠 ML Avancé</h3>
-            <p>15+ algorithmes de pointe avec optimisation d'hyperparamètres,
-            validation croisée et comparaisons multi-modèles.</p>
-            
-            <div style="margin: 1rem 0;">
-                <span class="tech-badge">XGBoost</span>
-                <span class="tech-badge">LightGBM</span>
-                <span class="tech-badge">CatBoost</span>
-                <span class="tech-badge">Neural Networks</span>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        st.info("""
+        **🧠 ML Avancé**
+        
+        15+ algorithmes de pointe avec optimisation d'hyperparamètres, validation croisée et comparaisons multi-modèles.
+        
+        **Technologies:** XGBoost • LightGBM • CatBoost • Neural Networks
+        """)
     
     # Algorithmes implémentés
     st.markdown("## 🤖 Algorithmes Implémentés")
