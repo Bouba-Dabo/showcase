@@ -65,9 +65,10 @@ def main():
     
     # Introduction
     st.markdown("""
-    <div style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">
+    <div style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
         <strong>Portfolio Technique - Boubacar DABO</strong><br>
-        Démonstration complète de compétences en Data Science & Machine Learning
+        Étudiant Ingénieur - Spécialisation Data Science & Machine Learning<br>
+        <em>🎓 Recherche stage PFE (6 mois) - Février 2026 | Possibilité CDI</em>
     </div>
     """, unsafe_allow_html=True)
     
@@ -78,6 +79,15 @@ def main():
     - 🧠 **ML Avancé** : 15+ algorithmes avec configuration avancée
     - 🔧 **Optimisation Optuna** : Optimisation automatique des hyperparamètres
     """)
+    
+    # Message stage
+    st.success("""
+    🎯 **Recherche de stage PFE** | Février 2026 - 6 mois | Suivi possible d'un CDI
+    
+    **Domaines d'intérêt :** Machine Learning • Data Science • IA industrielle • Optimisation algorithmique
+    """)
+    
+    st.markdown("<br>", unsafe_allow_html=True)
     
     # Statistiques du portfolio
     col1, col2, col3, col4 = st.columns(4)
@@ -174,7 +184,9 @@ def main():
         
         📧 dabom372@gmail.com
         
-        ✅ **Disponible temps plein jusqu'en Septembre 2025**
+        🎓 **Stage de fin d'études - Février 2026**
+        
+        💼 **Possibilité de CDI après le stage**
         """)
     
     with col2:
@@ -190,13 +202,15 @@ def main():
     
     with col3:
         st.markdown("""
-        ### 🎓 Formation
+        ### 🎓 Formation & Objectifs
         
         **ESIGELEC** - École d'Ingénieurs
         
         Spécialisation **Big Data & Intelligence Artificielle**
         
-        🎯 Focus sur ML industriel
+        🎯 **Recherche stage PFE 2026** puis CDI
+        
+        💡 Focus sur ML industriel & Data Science
         """)
 
 if __name__ == "__main__":
