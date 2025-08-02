@@ -76,6 +76,7 @@ def main():
     👈 **Utilisez la barre latérale pour naviguer** entre les différentes applications :
     - 📊 **Dashboard** : Interface principale avec visualisations
     - 🧠 **ML Avancé** : 15+ algorithmes avec configuration avancée
+    - 🔧 **Optimisation Optuna** : Optimisation automatique des hyperparamètres
     """)
     
     # Statistiques du portfolio
@@ -85,7 +86,7 @@ def main():
         st.metric("🤖 Algorithmes ML", "15+", "Implémentés")
     
     with col2:
-        st.metric("📱 Apps Interactives", "3", "Fonctionnelles")
+        st.metric("📱 Apps Interactives", "4", "Fonctionnelles")
     
     with col3:
         st.metric("📊 Datasets", "10+", "Analysés")
@@ -98,7 +99,7 @@ def main():
     # Fonctionnalités principales
     st.markdown("## 🚀 Fonctionnalités Principales")
     
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     
     with col1:
         st.success("""
@@ -116,6 +117,15 @@ def main():
         12+ algorithmes de Machine Learning avec optimisation d'hyperparamètres, validation croisée et comparaisons multi-modèles.
         
         **Technologies:** Random Forest • SVM • Neural Networks • Gradient Boosting
+        """)
+    
+    with col3:
+        st.warning("""
+        **🔧 Optimisation Optuna**
+        
+        Optimisation automatique des hyperparamètres avec algorithmes bayésiens et visualisations en temps réel.
+        
+        **Technologies:** Optuna • TPE Sampler • Hyperparamètre Tuning
         """)
     
     # Algorithmes implémentés
